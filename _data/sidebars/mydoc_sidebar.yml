@@ -19,184 +19,179 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: 1. Introduction and Overview
+  - title: 1. Introduction
     output: web, pdf
     folderitems:
 
-    - title: 1.1 Introduction
+    - title: 1.1 Purpose
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: 1.2 Purpose
+    - title: 1.2 Goals
       url: /1_2.html
       output: web, pdf
 
-    - title: 1.3 Organization
+    - title: 1.3 Intended Use
       url: /1_3.html
       output: web, pdf
 
-    - title: 1.4 Authority
+    - title: 1.4 Handbook Organization
       url: /1_4.html
       # url: /mydoc_coming_soon.html
       output: web, pdf
 
-    - title: 1.5 Truth in Data Principal
+    - title: 1.5 Distribution, Updates, and Contact
       url: /1_5.html
       # url: /mydoc_coming_soon.html
-      output: web, pdf
+      output: web, pdf 
 
-    - title: 1.6 Precision of Data
-      url: /1_6.html
-      output: web, pdf  
-
-  - title: 2. Traffic Data Sources and Factors
+  - title: 2. Traffic Analysis Methodology and Scoping
     output: web, pdf
     folderitems:
 
-    - title: 2.1 Introduction
+    - title: 2.1 Methodology Elements
       url: /2_1.html
       output: web, pdf
 
-    - title: 2.2 Purpose
+    - title: 2.2 Project Description
       url: /2_2.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+      - title: 2.2.1 Study Area Characteristics
+        url: /1_4.html
+        output: web, pdf
+      - title: 2.2.2 Prevailing Traffic Conditions
+        url: /1_4.html
+        output: web, pdf
 
-    - title: 2.3 Traffic Data Collection Program
-      url: /2_3.html
-      output: web, pdf
-
-    - title: 2.4 Traffic Adjustment Factors
+    - title: 2.3 Traffic Analysis Objectives
       url: /2_4.html
       output: web, pdf
 
-    - title: 2.5 AADT, K, D, and T
+    - title: 2.4 Analysis Boundary Limit
       url: /2_5.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 2.4.1 Spatial boundaries (area of influence (AOI))
+          url: /1_4.html
+          output: web, pdf
+        - title: 2.4.2 Temporal limits (peak periods, mid-day, weekend, special event)
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 2.6 Existing Traffic Condition Information
+    - title: 2.5 Data Requirements and Data Collection
+      url: /2_4.html
+      output: web, pdf
+
+    - title: 2.6 Analysis Boundary Limit
       url: /2_6.html
       output: web, pdf
 
-    - title: 2.7 Level of Service (LOS) Analysis
+    - title: 2.7 Traffic Analysis Tool and Analysis Approach Selection
       url: /2_7.html
       output: web, pdf
 
-    - title: 2.8 Number of Lanes Required
+    - title: 2.8 Existing Conditions Analysis
       url: /2_8.html
       output: web, pdf
 
-    - title: 2.9 Estimation of AADT From Short-Term Traffic Counts
+    - title: 2.9 Project Traffic Demand Forecasting
       url: /2_9.html
       output: web, pdf
 
-    - title: 2.10	Additional Data Sources
+    - title: 2.10	Project Alternatives (No-Buld and Build)
       url: /2_10.html
       output: web, pdf
 
-    - title: 2.11	Application of "Big Data" for Traffic Data Analysis
+    - title: 2.11	Safety Analysis
       url: /2_11.html
       output: web, pdf
 
+    - title: 2.12	Environmental Assessment
+      url: /2_11.html
+      output: web, pdf
 
-  - title: 3. Scoping for Project Traffic Foresting
+    - title: 2.13	Traffic Analysis Report and Technical Documentation
+      url: /2_11.html
+      output: web, pdf
+
+    - title: 2.14	Estimation of the Level of Effort
+      url: /2_11.html
+      output: web, pdf
+
+    - title: 2.15	Traffic Analysis Methodology Checklist
+      url: /2_11.html
+      output: web, pdf
+
+  - title: 3. Analysis Area Boundary Limits
     output: web, pdf
     folderitems:
 
-    - title: 3.1 Introduction
+    - title: 3.1 Spatial Boundary Limits
       url: /3_1.html
       output: web, pdf
 
-    - title: 3.2 Factors to be Considered in the Scoping Process
+    - title: 3.2 Temporal Boundary Limits
       url: /3_2.html
       output: web, pdf
 
-    - title: 3.3 Determine Applicable Forecasting Methods
-      url: /3_3.html
-      output: web, pdf
-
-    - title: 3.4 Identify Available and Needed Data Sources
-      url: /3_4.html
-      output: web, pdf
-
-    - title: 3.5 Schedule Guidelines
-      url: /3_5.html
-      output: web, pdf
-
-    - title: 3.6 Suggested Documentation and Deliverables
-      url: /3_6.html
-      output: web, pdf
-
-  - title: 4. Forecasting with Travel Demand Models
+  - title: 4. Data Collection
     output: web, pdf
 
     folderitems:
-    - title: 4.1 Introduction
+    - title: 4.1 Required Data
       url: /4_1.html
       output: web, pdf
 
-    - title: 4.2 Corridor and Project Traffic Forecasting
+    - title: 4.2 Input Parameters Default Values
       url: /4_2.html
       output: web, pdf
 
-    - title: 4.3 Fundamentals of Travel Demand Models
+    - title: 4.3 Data Collection Plan
       url: /4_3.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 4.3.1 Data Collection Checklist
+          url: /1_4.html
+          output: web, pdf
+        - title: 4.3.2 Data Collection Plan Format
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 4.4 Model Calibration and Validation
+    - title: 4.4 Existing Data Sources
       url: /4_4.html
       output: web, pdf
 
-    - title: 4.5 Model Assessment and Selection
+    - title: 4.5 Integrating “Big Data”
       url: /4_5.html
       output: web, pdf
 
-    - title: 4.6 Travel Demand Model Development and Application
+    - title: 4.6 Data Collection Schedule
       url: /4_6.html
       output: web, pdf
 
-    - title: 4.7 Use of Model Outputs in Traffic Forecasting
+    - title: 4.7 Calibration and Validation Data
       url: /4_7.html
       output: web, pdf
 
-    - title: 4.8 Documentation of Traffic Forecast
+    - title: 4.8 Quality Assurance
       url: /4_8.html
       output: web, pdf
 
-  - title: 5. Forecasting Without a Travel Demand Model
+  - title: 5. Analysis Tools Selection
     output: web, pdf
 
     folderitems:
-    - title: 5.1 Introduction
+    - title: 5.1 Traffic Analysis Tools
       url: /5_1.html
       output: web, pdf
 
-    - title: 5.2 Purpose
+    - title: 5.2 Which Tool is Appropriate
       url: /5_2.html
       output: web, pdf
 
-    - title: 5.3 Unconstrained Versus Constrained Demand
-      url: /5_3.html
-      output: web, pdf
-
-    - title: 5.4 Project Traffic Forecasting Without a Travel Demand Model
-      url: /5_4.html
-      output: web, pdf
-
-    - title: 5.5 Available Resources
-      url: /5_5.html
-      output: web, pdf
-
-    - title: 5.6 Example Traffic Projection for I-10/SR-8 in Columbia County
-      url: /5_6.html
-      output: web, pdf
-
-    - title: 5.7 Summary
-      url: /5_7.html
-      output: web, pdf
-    
-
-  - title: 6. Directional Design Hour Volumes
+  - title: 6. Performance and Measure of Effectiveness (MOE)
     output: web, pdf
 
     folderitems:
@@ -204,130 +199,253 @@ entries:
       url: /6_1.html
       output: web, pdf
 
-    - title: 6.2 Purpose
+    - title: 6.2 Purpose and Intended Use
       url: /6_2.html
       output: web, pdf
 
-    - title: 6.3 Development of DDHV Volumes from AADT
+    - title: 6.3 Operational Analysis Using Deterministic Tools
       url: /6_3.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 6.3.1 HCS Analysis
+          url: /1_4.html
+          output: web, pdf
+        - title: 6.3.2 Synchro Analysis
+          url: /1_4.html
+          output: web, pdf
+        - title: 6.3.3 Innovative Intersection and Interchange
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 6.4 Development of Directional Peak Hour Volumes
+    - title: 6.4 Microsimulation Analysis
       url: /6_4.html
       output: web, pdf
-
-    - title: 6.5 Use of Design Hour Traffic Volumes
-      url: /6_5.html
-      output: web, pdf
-
- 
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 6.4.1 Freeway Performance Measures
+          url: /1_4.html
+          output: web, pdf
+        - title: 6.4.2 Arterial Intersection Performance Measures
+          url: /1_4.html
+          output: web, pdf
+        - title: 6.4.3 Express Lanes Performance Measures
+          url: /1_4.html
+          output: web, pdf
+        - title: 6.4.4 Complex Weave Performance Measures
+          url: /1_4.html
+          output: web, pdf
   
-#    - title: Git collaboration
-#      url: /mydoc_git_collaboration
-#      output: web, pdf
-
-  - title: 7. Estimating Intersection Turning Movements
+  - title: 7. Traffic Analysis Using Analytical Tools
     output: web, pdf
 
     folderitems:
-    - title: 7.1 Introduction
+    - title: 7.1 Generalized Service Volume Table
       url: /7_1.html
       output: web, pdf
 
-    - title: 7.2 Purpose
+    - title: 7.2 HCM and HCS
       url: /7_2.html
       output: web, pdf
 
-    - title: 7.3 Background
+    - title: 7.3 SIDRA INTERSECTION
       url: /7_3.html
       output: web, pdf
 
-    - title: 7.4 TURNS5-V2014
+    - title: 7.4 Synchro and SimTraffic
       url: /7_4.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 7.4.1 Inputs for Synchro/SimTraffic
+          url: /1_4.html
+          output: web, pdf
+        - title: 7.4.2 Calibration of Synchro/SimTraffic
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 7.5 TMTool v2023
-      url: /7_5.html
-      output: web, pdf
-
-    - title: 7.6 Methods in the NCHRP Report 765
-      url: /7_6.html
-      output: web, pdf
-
-    - title: 7.7 Manual Method
-      url: /7_7.html
-      output: web, pdf
-
-    - title: 7.8 Summary of Techniques
-      url: /7_8.html
-      output: web, pdf
-
-  - title: 8. Equivalent Single Axle Load (ESAL) Forecasting
+  - title: 8. Microsimulation Analysis
     output: web, pdf
 
     folderitems:
-    - title: 8.1 Introduction
+    - title: 8.1 Base Model Development
       url: /8_1.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 8.1.1 Vissim Modeling Guidelines
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 8.2 Purpose
+    - title: 8.2 Model Verification/Error Checking
       url: /8_2.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 8.2.1 Base Model Verification Checklist
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 8.3 ESAL Forecasting Process
+    - title: 8.3 Model Calibration and Verification
       url: /8_3.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 8.3.1 Model Calibration Process
+          url: /1_4.html
+          output: web, pdf
+        - title: 8.3.2 Calibration Objectives
+          url: /1_4.html
+          output: web, pdf
+        - title: 8.3.3 Model Calibration Stragegy
+          url: /1_4.html
+          output: web, pdf
+        - title: 8.3.4 Number of multiple simulation runs
+          url: /1_4.html
+          output: web, pdf
+        - title: 8.3.5 Calibration Targets
+          url: /1_4.html
+          output: web, pdf
+        - title: 8.3.6 VISSIM Calibration Process
+          url: /1_4.html
+          output: web, pdf
+        - title: 8.3.7 Notes Regarding VISSIM Calibration Process
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 8.4 Truck Forecasting Process
+    - title: 8.4 Correcting Effects of Unmet Demand in the Model
       url: /8_4.html
       output: web, pdf
 
-    - title: 8.5 Design Requirements
+    - title: 8.5 Future-Year Model Verification
       url: /8_5.html
       output: web, pdf
 
-    - title: 8.6 Steps for Producing 18-KIP ESALS
+    - title: 8.6 Calibration and Validation Report
       url: /8_6.html
       output: web, pdf
 
-    - title: 8.7 Summary
+    - title: 8.7 Model Calibration Reviewer’s Checklist
       url: /8_7.html
       output: web, pdf
 
+    - title: 8.8 Maintenance of Traffic Analysis using Microsimulation Models
+      url: /8_7.html
+      output: web, pdf
+    
+    - title: 8.9 Animation
+      url: /8_7.html
+      output: web, pdf
 
-  - title: 9. Project Traffic for Tolled Managed Lanes
+    - title: 8.10 Model Manual
+      url: /8_7.html
+      output: web, pdf
+
+  - title: 9. Express Lanes Analysis
     output: web, pdf
 
     folderitems:
 
-    - title: 9.1 Introduction
+    - title: 9.1 Introduction to Managed Lanes
       url: /9_1.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 9.1.1 What is an Express Lane?
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 9.2 Travel Demand Forecasting for Express Lanes
+    - title: 9.2 Purpose and Intended Use
       url: /9_2.html
       output: web, pdf
 
-    - title: 9.3 Methods for Forecasting Express Lanes Project Traffic
+    - title: 9.3 Project Scope
       url: /9_3.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 9.3.1 AOI and Spatial Boundary
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.3.2 Determination of Temporal Boundary
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 9.4 ELToD Method for Forecasting Express Lanes Project Traffic
+    - title: 9.4 Data Collection for Express Lanes
       url: /9_4.html
       output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 9.4.1 Primary Data Types/Sources
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.4.2 Secondary Data Sources
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.4.3 Existing Express Lanes Within Study Area
+          url: /1_4.html
+          output: web, pdf
 
-    - title: 9.5 Project Forecasting Methodology
+    - title: 9.5 Travel Demand Forecasting for Express Lanes
       url: /9_5.html
       output: web, pdf
 
-  - title: Glossary
+    - title: 9.6 Traffic Assignment Methods
+      url: /9_5.html
+      output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 9.6.1 Statics Traffic Assignment
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.6.2 Dynamic Traffic Assignment Using ODME
+          url: /1_4.html
+          output: web, pdf
+          
+    - title: 9.7 Express Lane Traffic Modeling in Microsimulation
+      url: /9_5.html
+      output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: 9.7.1 Static Express Lanes Traffic Assignment
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.7.2 Dynamic Express Lane Assignment
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.7.3 Summary
+          url: /1_4.html
+          output: web, pdf
+
+    - title: 9.8 Complex Weave Analysis
+      url: /9_5.html
+      output: web, pdf
+      children:  # Add a 'children' key to indicate sub-items
+        - title: "9.8.1 Method 1: Individual Elements Analysis (HCM Based)"
+          url: /1_4.html
+          output: web, pdf
+        - title: "9.8.2 Method 2: V/C Ratio Using Vissim"
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.8.3 Critical Segment Segregation
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.8.4 Speed Differential
+          url: /1_4.html
+          output: web, pdf
+        - title: 9.8.5 Vehicles Disappearing
+          url: /1_4.html
+          output: web, pdf
+
+  - title: 10. Traffic Report
     output: web, pdf
 
     folderitems:
 
-    - title: Glossary
+    - title: 10.1 Traffic Analysis Report
       url: /glossary.html
       output: web, pdf
+    
+    - title: 10.2 Technical Memoranda
+      url: /glossary.html
+      output: web, pdf
+
+    - title: 10.3 Review of Traffic Analysis
+      url: /glossary.html
+      output: web, pdf
+    
+  - title: 11. Appendix
+    output: web, pdf
+
 
 
   
