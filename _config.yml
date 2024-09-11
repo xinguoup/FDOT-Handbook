@@ -1,4 +1,4 @@
-repository: XinyaDanI/jekyll-web.io
+repository: xinguoup/FDOT-Handbook/blob/main/
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -35,7 +35,7 @@ exclude:
 
 feedback_subject_line: feedback
 
-feedback_email: xinyad2@gmail.com
+feedback_email: "xinyad2@gmail.com, gxin245@gmail.com"
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
