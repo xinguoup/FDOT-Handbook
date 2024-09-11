@@ -6,41 +6,6 @@ foler: mydoc
 permalink: index.html
 ---
 
-<style>
-  h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 1rem;
-  }
-
-  p {
-    text-align: justify;
-    line-height: 1.6;
-  }
-
-  ul {
-    margin-left: 2rem;
-    list-style-type: square;
-  }
-
-  ul li {
-    margin-bottom: 0.5rem;
-  }
-
-  .chapter-title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-  }
-
-  .section-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-</style>
-
 Traffic analysis is the process of evaluating the effect of traffic demand and supply on the performance of a transportation facility in relation to meeting goals and objectives of the facility. Demand is the amount of traffic load that intends to use the facility while supply is the capacity of the facility to handle the demand. The goals and objectives not only provide guidance to the transportation planning process, but are also used to evaluate the implementation and operation of the facility. The goals can be categorized as related to mobility, reliability, accessibility, safety, economy, or environmental preservation.
 
 There are different levels of traffic analysis which can be grouped as:
