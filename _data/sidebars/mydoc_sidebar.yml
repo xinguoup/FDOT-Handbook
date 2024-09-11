@@ -66,11 +66,11 @@ entries:
         output: web, pdf
 
     - title: 2.3 Traffic Analysis Objectives
-      url: /2_4.html
+      url: /2_3.html
       output: web, pdf
 
     - title: 2.4 Analysis Boundary Limit
-      url: /2_5.html
+      url: /2_4.html
       output: web, pdf
       children:  # Add a 'children' key to indicate sub-items
         - title: 2.4.1 Spatial boundaries (area of influence (AOI))
@@ -81,10 +81,10 @@ entries:
           output: web, pdf
 
     - title: 2.5 Data Requirements and Data Collection
-      url: /2_4.html
+      url: /2_5.html
       output: web, pdf
 
-    - title: 2.6 Analysis Boundary Limit
+    - title: 2.6 Performance Measures of Effectiveness
       url: /2_6.html
       output: web, pdf
 
@@ -109,19 +109,19 @@ entries:
       output: web, pdf
 
     - title: 2.12	Environmental Assessment
-      url: /2_11.html
+      url: /2_12.html
       output: web, pdf
 
     - title: 2.13	Traffic Analysis Report and Technical Documentation
-      url: /2_11.html
+      url: /2_13.html
       output: web, pdf
 
     - title: 2.14	Estimation of the Level of Effort
-      url: /2_11.html
+      url: /2_14.html
       output: web, pdf
 
     - title: 2.15	Traffic Analysis Methodology Checklist
-      url: /2_11.html
+      url: /2_15.html
       output: web, pdf
 
   - title: 3. Analysis Area Boundary Limits
@@ -324,15 +324,15 @@ entries:
       output: web, pdf
 
     - title: 8.8 Maintenance of Traffic Analysis using Microsimulation Models
-      url: /8_7.html
+      url: /8_8.html
       output: web, pdf
     
     - title: 8.9 Animation
-      url: /8_7.html
+      url: /8_9.html
       output: web, pdf
 
     - title: 8.10 Model Manual
-      url: /8_7.html
+      url: /8_10.html
       output: web, pdf
 
   - title: 9. Express Lanes Analysis
@@ -382,7 +382,7 @@ entries:
       output: web, pdf
 
     - title: 9.6 Traffic Assignment Methods
-      url: /9_5.html
+      url: /9_6.html
       output: web, pdf
       children:  # Add a 'children' key to indicate sub-items
         - title: 9.6.1 Statics Traffic Assignment
@@ -393,7 +393,7 @@ entries:
           output: web, pdf
           
     - title: 9.7 Express Lane Traffic Modeling in Microsimulation
-      url: /9_5.html
+      url: /9_7.html
       output: web, pdf
       children:  # Add a 'children' key to indicate sub-items
         - title: 9.7.1 Static Express Lanes Traffic Assignment
@@ -407,7 +407,7 @@ entries:
           output: web, pdf
 
     - title: 9.8 Complex Weave Analysis
-      url: /9_5.html
+      url: /9_8.html
       output: web, pdf
       children:  # Add a 'children' key to indicate sub-items
         - title: "9.8.1 Method 1: Individual Elements Analysis (HCM Based)"
@@ -432,15 +432,15 @@ entries:
     folderitems:
 
     - title: 10.1 Traffic Analysis Report
-      url: /glossary.html
+      url: /10_1.html
       output: web, pdf
     
     - title: 10.2 Technical Memoranda
-      url: /glossary.html
+      url: /10_2.html
       output: web, pdf
 
     - title: 10.3 Review of Traffic Analysis
-      url: /glossary.html
+      url: /10_3.html
       output: web, pdf
     
   - title: 11. Appendix
