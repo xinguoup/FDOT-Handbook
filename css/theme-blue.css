@@ -137,6 +137,10 @@ li.sidebarTitle {
     font-style: italic;
 }
 
+.post-title-main{
+    color: #38446f;
+}
+
 u { 
     text-decoration: underline;
   }
