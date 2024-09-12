@@ -35,8 +35,8 @@ topnav_dropdowns:
           url: /9_1.html
         - title: Chapter10
           url: /10_1.html
-        - title: Glossary
-          url: /glossary.html
+        - title: Appendix
+          url: /appendix.html
        
 
 
