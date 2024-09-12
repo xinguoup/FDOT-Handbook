@@ -22,7 +22,7 @@ h4 {color: #808080; }
 }
 
 
-div.navbar-collapse .dropdown-menu {
+div.navbar-collapse .dropdown-menu {  /*change top nav chapter menu width*/
 
     position: absolute; 
     top: 100%; /* make sure the menu is below top nav bar */

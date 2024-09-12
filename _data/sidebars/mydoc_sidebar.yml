@@ -57,13 +57,7 @@ entries:
     - title: 2.2 Project Description
       url: /2_2.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-      - title: 2.2.1 Study Area Characteristics
-        url: /1_4.html
-        output: web, pdf
-      - title: 2.2.2 Prevailing Traffic Conditions
-        url: /1_4.html
-        output: web, pdf
+      
 
     - title: 2.3 Traffic Analysis Objectives
       url: /2_3.html
@@ -72,13 +66,7 @@ entries:
     - title: 2.4 Analysis Boundary Limit
       url: /2_4.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 2.4.1 Spatial boundaries (area of influence (AOI))
-          url: /1_4.html
-          output: web, pdf
-        - title: 2.4.2 Temporal limits (peak periods, mid-day, weekend, special event)
-          url: /1_4.html
-          output: web, pdf
+      
 
     - title: 2.5 Data Requirements and Data Collection
       url: /2_5.html
@@ -151,13 +139,7 @@ entries:
     - title: 4.3 Data Collection Plan
       url: /4_3.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 4.3.1 Data Collection Checklist
-          url: /1_4.html
-          output: web, pdf
-        - title: 4.3.2 Data Collection Plan Format
-          url: /1_4.html
-          output: web, pdf
+      
 
     - title: 4.4 Existing Data Sources
       url: /4_4.html
@@ -206,33 +188,11 @@ entries:
     - title: 6.3 Operational Analysis Using Deterministic Tools
       url: /6_3.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 6.3.1 HCS Analysis
-          url: /1_4.html
-          output: web, pdf
-        - title: 6.3.2 Synchro Analysis
-          url: /1_4.html
-          output: web, pdf
-        - title: 6.3.3 Innovative Intersection and Interchange
-          url: /1_4.html
-          output: web, pdf
-
+    
     - title: 6.4 Microsimulation Analysis
       url: /6_4.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 6.4.1 Freeway Performance Measures
-          url: /1_4.html
-          output: web, pdf
-        - title: 6.4.2 Arterial Intersection Performance Measures
-          url: /1_4.html
-          output: web, pdf
-        - title: 6.4.3 Express Lanes Performance Measures
-          url: /1_4.html
-          output: web, pdf
-        - title: 6.4.4 Complex Weave Performance Measures
-          url: /1_4.html
-          output: web, pdf
+
   
   - title: 7. Traffic Analysis Using Analytical Tools
     output: web, pdf
@@ -253,13 +213,6 @@ entries:
     - title: 7.4 Synchro and SimTraffic
       url: /7_4.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 7.4.1 Inputs for Synchro/SimTraffic
-          url: /1_4.html
-          output: web, pdf
-        - title: 7.4.2 Calibration of Synchro/SimTraffic
-          url: /1_4.html
-          output: web, pdf
 
   - title: 8. Microsimulation Analysis
     output: web, pdf
@@ -268,45 +221,17 @@ entries:
     - title: 8.1 Base Model Development
       url: /8_1.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 8.1.1 Vissim Modeling Guidelines
-          url: /1_4.html
-          output: web, pdf
+  
 
     - title: 8.2 Model Verification/Error Checking
       url: /8_2.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 8.2.1 Base Model Verification Checklist
-          url: /1_4.html
-          output: web, pdf
+
 
     - title: 8.3 Model Calibration and Verification
       url: /8_3.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 8.3.1 Model Calibration Process
-          url: /1_4.html
-          output: web, pdf
-        - title: 8.3.2 Calibration Objectives
-          url: /1_4.html
-          output: web, pdf
-        - title: 8.3.3 Model Calibration Stragegy
-          url: /1_4.html
-          output: web, pdf
-        - title: 8.3.4 Number of multiple simulation runs
-          url: /1_4.html
-          output: web, pdf
-        - title: 8.3.5 Calibration Targets
-          url: /1_4.html
-          output: web, pdf
-        - title: 8.3.6 VISSIM Calibration Process
-          url: /1_4.html
-          output: web, pdf
-        - title: 8.3.7 Notes Regarding VISSIM Calibration Process
-          url: /1_4.html
-          output: web, pdf
-
+    
     - title: 8.4 Correcting Effects of Unmet Demand in the Model
       url: /8_4.html
       output: web, pdf
@@ -343,10 +268,7 @@ entries:
     - title: 9.1 Introduction to Managed Lanes
       url: /9_1.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 9.1.1 What is an Express Lane?
-          url: /1_4.html
-          output: web, pdf
+     
 
     - title: 9.2 Purpose and Intended Use
       url: /9_2.html
@@ -355,27 +277,12 @@ entries:
     - title: 9.3 Project Scope
       url: /9_3.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 9.3.1 AOI and Spatial Boundary
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.3.2 Determination of Temporal Boundary
-          url: /1_4.html
-          output: web, pdf
+      
 
     - title: 9.4 Data Collection for Express Lanes
       url: /9_4.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 9.4.1 Primary Data Types/Sources
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.4.2 Secondary Data Sources
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.4.3 Existing Express Lanes Within Study Area
-          url: /1_4.html
-          output: web, pdf
+      
 
     - title: 9.5 Travel Demand Forecasting for Express Lanes
       url: /9_5.html
@@ -384,47 +291,16 @@ entries:
     - title: 9.6 Traffic Assignment Methods
       url: /9_6.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 9.6.1 Statics Traffic Assignment
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.6.2 Dynamic Traffic Assignment Using ODME
-          url: /1_4.html
-          output: web, pdf
+    
           
     - title: 9.7 Express Lane Traffic Modeling in Microsimulation
       url: /9_7.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: 9.7.1 Static Express Lanes Traffic Assignment
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.7.2 Dynamic Express Lane Assignment
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.7.3 Summary
-          url: /1_4.html
-          output: web, pdf
-
+      
     - title: 9.8 Complex Weave Analysis
       url: /9_8.html
       output: web, pdf
-      children:  # Add a 'children' key to indicate sub-items
-        - title: "9.8.1 Method 1: Individual Elements Analysis (HCM Based)"
-          url: /1_4.html
-          output: web, pdf
-        - title: "9.8.2 Method 2: V/C Ratio Using Vissim"
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.8.3 Critical Segment Segregation
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.8.4 Speed Differential
-          url: /1_4.html
-          output: web, pdf
-        - title: 9.8.5 Vehicles Disappearing
-          url: /1_4.html
-          output: web, pdf
+      
 
   - title: 10. Traffic Report
     output: web, pdf
