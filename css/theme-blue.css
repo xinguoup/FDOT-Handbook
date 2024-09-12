@@ -9,8 +9,7 @@ h3 {color: #ED1951; }
 h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #248ec2;
-    
+    background-color: #248ec2;  
     color: white;
 }
 
@@ -22,9 +21,38 @@ h4 {color: #808080; }
     background-color: #d65535; /*the sidebar title when hover*/
 }
 
+
+div.navbar-collapse .dropdown-menu {
+
+    position: absolute; 
+    top: 100%; /* make sure the menu is below top nav bar */
+    left:1rem;
+    width: 90px; 
+    min-width: 80px; 
+    max-width: 90px;
+
+
+    /* left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px; */
+}
+
 div.navbar-collapse .dropdown-menu > li > a:hover {
     /* background-color: #347DBE; */
-    background-color: #bdc0cf;
+    background-color: #bdc0cf;  /*top navbar chapters dropdown background color when hover*/
 }
 
 .nav li.thirdlevel > a {
@@ -45,23 +73,20 @@ a[data-toggle="tooltip"] {
     border-color: #243060;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-    color: white;
+    color: white;  /*color of the text in top nav bar*/
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: #bdc0cf;
+     color: #bdc0cf;  /*color of the text in top nav bar when hovered*/
 }
 
 a.navbar-brand:hover {
-  color: #bdc0cf;
+  color: #bdc0cf;   /**/
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #015CAE;
-}
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #4e597e; /*when Chpaters button was clicked*/
+    background-color: #4e597e;  /*when Chpaters button was clicked*/
     color: #ffffff;
 }
 
@@ -88,7 +113,7 @@ a.navbar-brand:hover {
     /* background-color: #248ec2;
     border-color: #347DBE; */
     background-color: #243060;
-    border-color: #243060;
+    border-color: #243060;   /**/
 }
 
 .printTitle {

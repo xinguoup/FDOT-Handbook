@@ -80,9 +80,9 @@ h4[id],
 h5[id],
 h6[id],
 /* h7[id], */
-dt[id]{
+dt[id]{   /*the distance between main body and top nav bar*/
 padding-top: 60px;
-margin-top: -40px
+margin-top: -40px    
 }
 
 .post-content img {
@@ -285,8 +285,9 @@ div#toc >ul::before {
 }
 
 li.dropdownActive a {
-    font-weight: bold;
+    font-weight: bold;   /*items in chapter top nav dropdown will be bold when active*/
 }
+
 
 
 .post-content a.fa-rss {
@@ -294,12 +295,13 @@ li.dropdownActive a {
 }
 
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {   /*margin for text items in top nav bar*/
     background-color: transparent;
     margin-top:10px;
     margin-right: -8px;
     /* right: 5px; */
 }
+
 .navbar-static-top{
     position: fixed;
     z-index:500;
@@ -312,7 +314,6 @@ li.dropdownActive a {
     left: -16px;
     
 
-    
 }
 
 .post-content .rssfeedLink {
