@@ -162,8 +162,9 @@ li.sidebarTitle {
     font-style: italic;
 }
 
-.post-title-main{
+.post-title-main{   /*edit the title for each page */
     color: #38446f;
+    font-family: Bahnschrift Light;
 }
 
 u { 

@@ -1,6 +1,13 @@
 body {
     font-size:15px;
     height: 100px;
+
+}
+
+.post-content{   /*edit the body of each page*/
+    font-family: Bahnschrift Light;
+    color: black;
+    text-align: justify;
 }
 
 .bs-callout {
@@ -82,7 +89,8 @@ h6[id],
 /* h7[id], */
 dt[id]{   /*the distance between main body and top nav bar*/
 padding-top: 60px;
-margin-top: -40px    
+margin-top: -40px;    
+
 }
 
 .post-content img {
